@@ -334,7 +334,7 @@ def handle_remove_favorite(client: StudentWSClient) -> None:
 
 def main():
     # "ws://ip:port/ws/student?room=<room_id>"
-    ws_url = "ws://10.103.78.155:8000/ws/student?room=BCIR4F"
+    ws_url = "ws://10.103.86.108:8000/ws/student?room=WJ8YLM"
     client = StudentWSClient(ws_url=ws_url)
 
     while True:
